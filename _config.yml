@@ -96,6 +96,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/Giraffe255/Giraffe255.github.io.git
+  repository: git@github.com:Giraffe255/Giraffe255.github.io.git
   branch: source
 
