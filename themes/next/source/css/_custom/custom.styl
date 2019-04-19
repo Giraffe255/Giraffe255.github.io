@@ -1,0 +1,290 @@
+// Custom styles.
+
+// 背景图片
+body{   
+        background:url(https://picture-602903230.oss-cn-hongkong.aliyuncs.com/background-2.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+     }
+
+// 文字背景色以及半透明
+.content {
+            border-radius: 10px;
+            margin-top: 60px;
+            padding: 30px;
+            background:rgba(255, 255, 255, 90%) none repeat scroll !important;
+         }
+
+// 文章页面宽度
+.main-inner {width: 1000px;}
+
+// 文章内单行代码的样式
+#posts code {color: #ffff00;background-color: #696969;}
+
+// 评论添加背景色
+#comments {
+       border-radius: 10px;
+       background:rgba(255, 255, 255, 85%) none repeat scroll !important;
+    }
+
+// 页面头部和底部栏的背景色
+.header {
+          background:rgba(0, 0, 0, 80%) none repeat scroll !important;
+        }
+.footer {
+          background:rgba(0, 0, 0, 50%) none repeat scroll !important;
+        }
+
+// 网页头、底部的文字颜色
+.footer-inner {color: #F0E68C; font-size: 12px}
+.site-title {color: #F0E68C}
+
+// 侧栏背景图以及内部文字颜色
+#sidebar {
+            background:url(https://picture-602903230.oss-cn-hongkong.aliyuncs.com/sidebar-4.png);
+            background-size: cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            p,span,a {
+                 color: #ffffff;
+                 font-size: 13px;
+                 }
+}
+
+// 鼠标划入侧边栏显示站点信息
+#mydivshow{opacity: 0;}
+
+// 文章内链接文本样式
+.post-body p a{
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+  }
+}
+
+// 下载样式(用法：<a id="download" href="https://git-scm.com/download/win"><i class="fa fa-download"></i><span> Download Now</span> </a>)
+a#download {
+display: inline-block;
+padding: 0 10px;
+color: #000;
+background: transparent;
+border: 2px solid #000;
+border-radius: 2px;
+transition: all .5s ease;
+font-weight: bold;
+&:hover {
+background: #000;
+color: #fff;
+}
+}
+
+// 鼠标样式
+  * {
+      cursor: url("https://picture-602903230.oss-cn-hongkong.aliyuncs.com/%E9%BC%A0%E6%A0%87%E6%A0%B7%E5%BC%8F/normal.cur"),auto!important
+  }
+  :active {
+      cursor: url("https://picture-602903230.oss-cn-hongkong.aliyuncs.com/%E9%BC%A0%E6%A0%87%E6%A0%B7%E5%BC%8F/active.cur"),auto!important
+  }
+
+// 修改分类层级显示
+.category-list ul
+    list-style none
+    li:before
+      content '>> '
+.posts-expand .post-body ul li
+    list-style none
+
+// 滚动条美化
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-button:start:increment,::-webkit-scrollbar-button:end:decrement {
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  display: block;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,.5);
+}
+::-webkit-scrollbar-track,::-webkit-scrollbar-thumb {
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+::-webkit-scrollbar-track:hover {
+  background-color: rgba(0,0,0,.15);
+}
+::-webkit-scrollbar-button:start {
+  width: 10px;
+  height: 10px;
+  background: url(../images/scrollbar_arrow.png) no-repeat 0 0;
+}
+::-webkit-scrollbar-button:start:hover {
+  background: url(../images/scrollbar_arrow.png) no-repeat -15px 0;
+}
+::-webkit-scrollbar-button:start:active {
+  background: url(../images/scrollbar_arrow.png) no-repeat -30px 0;
+}
+::-webkit-scrollbar-button:end {
+  width: 10px;
+  height: 10px;
+  background: url(../images/scrollbar_arrow.png) no-repeat 0 -18px;
+}
+::-webkit-scrollbar-button:end:hover {
+  background: url(../images/scrollbar_arrow.png) no-repeat -15px -18px;
+}
+::-webkit-scrollbar-button:end:active {
+  background: url(../images/scrollbar_arrow.png) no-repeat -30px -18px;
+}
+
+// 自定义播放器样式
+.aplayer-list ol li:hover {   /*列表悬停颜色*/
+                  background:rgba(0, 0, 0, 0.14) none repeat scroll !important;}
+.aplayer-list ol li {   /*列表底色*/
+                        background:rgba(0, 0, 0, 0.2);}
+.aplayer-list-light {   /*列表播放歌曲颜色*/
+                      background:rgba(0, 0, 0, 0.12) none repeat scroll !important;}
+#player1 {    /*边框样式*/
+          border-radius: 2px;
+          div,ol {border-radius: 2px;}
+        }
+#player1 *{color: #666;}    /*字体颜色*/
+/*列表歌曲信息的排版*/
+.aplayer-list-index{float:left;}
+.aplayer-list-title{float:left;}
+.aplayer-list-author{float:right;}
+
+// 自定义页脚跳动的心样式
+@keyframes heartAnimate {
+0%,100%{transform:scale(1);}
+10%,30%{transform:scale(0.9);}
+20%,40%,60%,80%{transform:scale(1.1);}
+50%,70%{transform:scale(1.1);}
+}
+#heart {
+animation: heartAnimate 1.33s ease-in-out infinite;
+}
+.with-love {
+	color: #FF00FF;
+}
+
+// 字体
+body {
+    color: #000;
+}
+@font-face {
+  font-family: 'Linux Biolinum';
+  src: url("/fonts/LinBiolinum_Rah.eot");
+  font-display: swap;
+  src: url("/fonts/LinBiolinum_Rah.eot") format('embedded-opentype'), url("/fonts/LinBiolinum_Rah.woff2") format('woff2'), url("/fonts/LinBiolinum_Rah.woff") format('woff'), url("/fonts/LinBiolinum_Rah.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Linux Biolinum';
+  src: url("/fonts/LinBiolinum_RBah.eot");
+  font-display: swap;
+  src: url("/fonts/LinBiolinum_RBah.eot") format('embedded-opentype'), url("/fonts/LinBiolinum_RBah.woff2") format('woff2'), url("/fonts/LinBiolinum_RBah.woff") format('woff'), url("/fonts/LinBiolinum_RBah.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Linux Biolinum';
+  src: url("/fonts/LinBiolinum_RIah.eot");
+  font-display: swap;
+  src: url("/fonts/LinBiolinum_RIah.eot") format('embedded-opentype'), url("/fonts/LinBiolinum_RIah.woff2") format('woff2'), url("/fonts/LinBiolinum_RIah.woff") format('woff'), url("/fonts/LinBiolinum_RIah.ttf") format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+// 侧栏RSS按钮样式
+.feed-link {
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.feed-link a {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(158, 158, 158) !important;
+    border-radius: 15px;
+}
+.feed-link a:hover {
+    background-color: rgb(240, 230, 140);
+}
+.feed-link a i {
+    color: rgb(255, 255, 255);
+}
+
+// 文章标题动态效果
+.posts-expand .post-title-link::before {
+    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+}
+
+// [Read More]按钮样式
+.post-button .btn {
+    color: #555 !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+    border: none !important;
+    transition-property: unset;
+    padding: 0px 15px;
+}
+.post-button .btn:hover {
+    color: rgb(255, 255, 255) !important;
+    border-radius: 3px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+}
+
+// 页面底部页码
+.pagination .page-number.current {
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(	240, 230, 140, 0.35);
+    color: rgb(0, 0, 0);
+}
+.pagination .prev, .pagination .next, .pagination .page-number {
+    margin-bottom: 10px;
+    border: none;
+}
+.pagination .space {
+    color: rgb(255, 255, 255);
+}
+
+// 时间轴左边线条
+.posts-collapse::after {
+    margin-left: -2px;
+    background-image: linear-gradient(180deg,#f79533 0,#f37055 15%,#ef4e7b 30%,#a166ab 44%,#5073b8 58%,#1098ad 72%,#07b39b 86%,#6dba82 100%);
+}
+
+// 时间轴文章标题左边圆点颜色
+.posts-collapse .post-header:hover::before {
+    background-color: rgb(161, 102, 171);
+}
+
+// 时间轴文章标题
+.posts-collapse .post-title a {
+    color: rgb(80, 115, 184);
+}
+.posts-collapse .post-title a:hover {
+    color: rgb(161, 102, 171);
+}
+
