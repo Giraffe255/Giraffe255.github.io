@@ -97,5 +97,5 @@ theme: next
 deploy:
   type: git
   repository: git@github.com:Giraffe255/Giraffe255.github.io.git
-  branch: source
+  branch: master
 
