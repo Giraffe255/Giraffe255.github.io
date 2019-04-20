@@ -1,5 +1,5 @@
 ---
-title: 关于giraffe-cc的研究报告
+title: 关于Tom Smith的研究报告
 type: post
 comments: true
 ---

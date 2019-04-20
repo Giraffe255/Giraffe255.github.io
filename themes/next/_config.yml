@@ -389,9 +389,9 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: true
-  appid: 9yHmq9GsUcsiPlwVStXK0MFF-gzGzoHsz # your leancloud application appid
-  appkey: T0HOWS7AdAPBoUzRlAi90GfH # your leancloud application appkey
+  enable: false
+  appid:  # your leancloud application appid
+  appkey:  # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: true # Verification code
   placeholder: ヾﾉ≧∀≦)o来啊，造作啊! # comment box placeholder
@@ -418,10 +418,10 @@ gitment:
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: zh-Hans # Force language, or auto switch by theme
-  github_user: 602903230 # MUST HAVE, Your Github ID
-  github_repo: 602903230.github.io # MUST HAVE, The repo you use to store Gitment comments
-  client_id: 65e04de8c803283a6113 # MUST HAVE, Github client id for the Gitment
-  client_secret: aa371e8021d586de224946e301da862eb6e884be # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user:  # MUST HAVE, Your Github ID
+  github_repo:  # MUST HAVE, The repo you use to store Gitment comments
+  client_id:  # MUST HAVE, Github client id for the Gitment
+  client_secret:  # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -476,7 +476,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: UA-123402045-2
+google_analytics: 
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
