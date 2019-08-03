@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Giraffe&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/"/>
+  <updated>2019-08-03T15:52:29.226Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name>giraffe-cc</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2018/03/10/hello-world/"/>
+    <id>/2018/03/10/hello-world/</id>
+    <published>2018-03-10T07:41:18.000Z</published>
+    <updated>2019-08-03T15:52:29.226Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://picture-602903230.oss-cn-hongkong.aliyuncs.com/background-1.png" alt></p><blockquote class="blockquote-center"><span style="font-size: 16pt;"><strong>Hi, there！</strong></span></blockquote><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://picture-602903230.oss-cn-hongkong.aliyuncs.com/background-1.png&quot; alt&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;strong&gt;Hi, there！&lt;/strong&gt;&lt;/span&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Tech" scheme="/categories/Tech/"/>
+    
+      <category term="Blog" scheme="/categories/Tech/Blog/"/>
+    
+    
+      <category term="GitHub" scheme="/tags/GitHub/"/>
+    
+      <category term="Hexo" scheme="/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="/tags/Blog/"/>
+    
+  </entry>
+  
+</feed>
